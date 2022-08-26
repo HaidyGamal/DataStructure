@@ -9,7 +9,7 @@ public class node {
     }  
 }
 ```
-#BINARY TREE CLASS
+# BINARY TREE CLASS
 class contains all methods that can be done in binary tree
 #1. make_node function
 function that creates new nodes
