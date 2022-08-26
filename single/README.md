@@ -1,3 +1,53 @@
 # single linkelist
 
 acts as a chain.Each element contains a data, pointer that points to the next element in the list
+# NODE CLASS 
+we make node class as structure contains the data of parent and the next nodes
+```
+public class node {
+    String data;
+      int  index;
+      node next;
+    public node() {
+}
+}
+```
+# stack class
+Stack is a linear data structure which follows a particular order in which the operations are performed.
+Deals with LIFO(Last In First Out)
+#1. push function 
+to insert data into stack we have to insert it to the TOP
+```
+public void push(String dd){
+        
+        node temp=new node();
+        if(temp==null){
+            System.out.println("ERROR:FULL MEMORY");
+            return;
+        }
+        if(top==null){
+        temp.data=dd;
+        temp.index=0;
+        temp.next=top;
+        top=temp;
+    }
+        else{
+        temp.data=dd;
+        temp.index=top.index+1;
+        temp.next=top;
+        top=temp;
+        }}
+   ```
+  #2. POP function
+  also to pop any data we have to pop it from the top to apply LIFO concept
+  ```
+  public String pop(){
+        if(top==null) {System.out.println("ERROR:EMPTY LIST");
+            return "0";}
+        
+        String dd=top.data;
+        top=top.next;
+        return dd;
+    }
+   ```
+   3.
