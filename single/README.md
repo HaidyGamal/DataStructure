@@ -17,6 +17,7 @@ Stack is a linear data structure which follows a particular order in which the o
 Deals with LIFO(Last In First Out)
 
 #1. push function 
+
 to insert data into stack we have to insert it to the TOP
 ```
 public void push(String dd){
@@ -40,6 +41,7 @@ public void push(String dd){
         }}
    ```
   #2. POP function
+  
   also to pop any data we have to pop it from the top to apply LIFO concept
   ```
   public String pop(){
@@ -82,6 +84,7 @@ queue is a linear data structure which follows a particular order in which the o
 Deals with FIFO(First In First Out)
 
 #1. enqueue function
+
 to insert data in a queue we have to insert in from rear 
 ```
 public void enqueue(String dd){
@@ -106,6 +109,7 @@ public void enqueue(String dd){
         }
    ```
   #2. dequeue function
+  
   to pop data from queue we have to pop it from the front to apply FIFO concept
   ```
   public String dequeue(){
