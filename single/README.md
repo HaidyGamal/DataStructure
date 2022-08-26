@@ -15,6 +15,7 @@ public class node {
 # stack class
 Stack is a linear data structure which follows a particular order in which the operations are performed.
 Deals with LIFO(Last In First Out)
+
 #1. push function 
 to insert data into stack we have to insert it to the TOP
 ```
@@ -79,6 +80,7 @@ public void print_stack(){
 # Queue class
 queue is a linear data structure which follows a particular order in which the operations are performed.
 Deals with FIFO(First In First Out)
+
 #1. enqueue function
 to insert data in a queue we have to insert in from rear 
 ```
