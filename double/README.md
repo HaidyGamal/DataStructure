@@ -16,6 +16,7 @@ public class node {
 ```
 # double_LL class
 #1. add first function
+
 function to insert element in the first index
 ```
 public void add_first(String dd){
@@ -44,6 +45,7 @@ public void add_first(String dd){
    }
   ```
 #2. add_last function
+
 function to insert element in the last index
 ```
 public void add_last(String dd){
@@ -73,6 +75,7 @@ public void add_last(String dd){
    }
  ```
 #3. add_index function
+
 function to insert element in specific inserted index
 ```
 public void add_index(int pos,String dd){
@@ -107,6 +110,7 @@ public void add_index(int pos,String dd){
     }
   ```
 #4. delete _first function
+
 function to delete the element in the first index
 ```
 public void delete_first(){
@@ -127,6 +131,7 @@ public void delete_first(){
    }
   ```
  #5. delete _last function
+ 
 function to delete the element in the last index
 ```
 public void delete_last(){
@@ -145,6 +150,7 @@ public void delete_last(){
    }
  ```
  #6. delete_index function
+ 
  function to delete the element of the inserted index
 ```
 public void delete_index(int pos){
@@ -168,6 +174,7 @@ public void delete_index(int pos){
    }
    ```
   #7. search_index function 
+  
   function returns the index of specific element
   ```
   int search_index(String dd){
@@ -184,6 +191,7 @@ public void delete_index(int pos){
    }
   ```
   #8. print function 
+  
   function that prints the elements of the list 
   ```
   public void print(){
