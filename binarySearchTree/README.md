@@ -1,5 +1,5 @@
 # NODE CLASS 
-we make node class as structure contains the data of root and the left and right nodes
+we make node class as structure contains the data of  parent and the left and right childs
 ```
 public class node {
     int data;
