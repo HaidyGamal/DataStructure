@@ -15,7 +15,7 @@ public class node {
 }
 ```
 # double_LL class
-#1. add first function
+#1. add_first function
 
 function to insert element in the first index
 ```
