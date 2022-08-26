@@ -1,6 +1,6 @@
 # NODE CLASS 
 we make node class as structure contains the data of root and the left and right nodes
-'''
+```
 public class node {
     int data;
     node left,right;
@@ -8,7 +8,7 @@ public class node {
     public node() {
     }  
 }
-'''
+```
 #BINARY TREE CLASS
 class contains all methods that can be done in binary tree
 #1. make_node function
