@@ -1,4 +1,5 @@
-#Double linkelist
+# Double linkelist
+
 acts as a chain.Each element contains a data, pointer that points to the previous element 
 and another one to the next element
 # NODE CLASS 
