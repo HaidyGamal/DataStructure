@@ -8,7 +8,7 @@ public class node {
     public node() {
     }  
 }
-```
+``` 
 # BINARY TREE CLASS
 class contains all methods that can be done in binary tree
 
@@ -26,6 +26,7 @@ public node make_node(int dd){
     }
  ```
 #2. rec_insertion function
+
 function to insert new node in its correct position in the tree
 ```
 public void rec_insertion(node ptr,int dd){
