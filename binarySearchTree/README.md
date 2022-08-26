@@ -13,6 +13,7 @@ public class node {
 class contains all methods that can be done in binary tree
 
 #1. make_node function
+
 function that creates new nodes
 ```
 public node make_node(int dd){
@@ -39,6 +40,7 @@ public void rec_insertion(node ptr,int dd){
     }
  ```
  #3 print pre-order functions
+ 
  functions to print the nodes of the tree in preorder traversal
  by printing the data of the parent first then check the left and right childs
  ```
@@ -55,6 +57,7 @@ public void rec_insertion(node ptr,int dd){
     }
   ```
  #4. print post-order functions
+ 
  functions to print the nodes of the tree in postorder traversal
  by printing the data of the left child first then the right child and  parent
  ```
@@ -71,6 +74,7 @@ public void rec_insertion(node ptr,int dd){
     }
   ```
   #5. print in-order functions
+  
  functions to print the nodes of the tree in inorder traversal
  by printing the data of the left child first then the parent and right child
  ```
@@ -87,6 +91,7 @@ public void rec_insertion(node ptr,int dd){
     }
    ```
 #6. search functions
+
   function to check if the inserted element exists in the tree 
   ```
   public boolean search_data(int dd){
@@ -101,6 +106,7 @@ public void rec_insertion(node ptr,int dd){
     }
    ```
  #7. remove functions
+ 
  function to remove specific element from the tree
  first we have to check if the root equal to null or not
  ```
